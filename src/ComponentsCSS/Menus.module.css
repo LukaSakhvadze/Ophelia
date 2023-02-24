@@ -1,0 +1,48 @@
+.menus{
+    margin-top:8%;
+}
+.menus h2{
+    text-align: center;
+}
+.menus nav{
+    margin-top:4%;
+}
+.menus ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1%;
+}
+.menus ul li{
+    list-style-type: none;
+    border:2px  white solid;
+    padding:0.5% 1%;
+    cursor: pointer;
+}
+.menus ul li:hover{
+    background-color: white;
+    color:grey;
+    transition: ease-in-out 0.25s all;
+}
+.menus p{
+    text-align: center;
+    margin-top:2%;
+}
+.menus .downloadBtnDiv{
+    margin-top:2%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menus .downloadBtn{
+    color:black;
+    border: 2px solid black;
+    background-color: transparent;
+    padding:0.5% 1%;
+    cursor: pointer;
+}
+.menus .downloadBtn:hover{
+    background-color: black;
+    color:white;
+    transition: ease-in-out 0.25s all;
+}

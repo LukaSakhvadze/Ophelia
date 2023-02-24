@@ -1,0 +1,38 @@
+
+header h1{
+    text-align: center;
+    cursor: pointer;
+}
+header h1 img{
+    width:14rem;
+    margin-top:1%
+}
+
+header ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap:3%
+    
+}
+header ul li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-top:1%;
+    margin-bottom:2%;
+}
+header li:hover{
+    color:grey;
+    transition: ease-in-out 0.25s color;
+}
+header li:nth-child(9){
+    border: 2px solid white;
+    padding:0.5% 1.5%;
+    
+}
+header li:nth-child(9):hover{
+    color:grey;
+    background-color: white;
+    transition: ease-in-out 0.25s all;
+}

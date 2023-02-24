@@ -1,0 +1,68 @@
+.videos{
+    display:flex;
+    flex-flow:column wrap;
+    align-items: center;
+}
+.video1{
+    width:40rem;
+    height:auto;
+}
+.reservationBtn2{
+    margin-top:1.5%;
+    margin-bottom:4%;   
+    padding:0.5% 1%;
+    background-color: transparent;
+    cursor: pointer;
+    color:white;
+    border:3px white solid
+}
+.reservationBtn2:hover{
+    background-color: white;
+    color:grey;
+    transition: ease-in-out 0.25s all;
+}
+.videos a{
+    margin-top:4%;
+}
+.subscribeBtn{
+    font-size:100%;
+    padding:3% 5%;
+    white-space: nowrap;
+    background-color: transparent;
+    cursor: pointer;
+    color:white;
+    border:3px white solid
+}
+.subscribeBtn:hover{
+    background-color: white;
+    color:grey;
+    transition: ease-in-out 0.25s all;
+}
+.videos h2{
+    font-size:200%;
+    white-space: nowrap;
+}
+.beSocial{
+    margin-top:5%;
+    margin-bottom:1%;
+}
+.liveDays{
+    margin-top:2%
+}
+.cocktail{
+    margin-top:6%;
+}
+.cocktail h2:nth-child(1){
+    margin-left:0%;
+}
+.cocktail h2:nth-child(2){
+    margin-left:13%;
+}
+.cocktail h2:nth-child(3){
+    margin-left:30%;
+}
+.SnakeImg{
+    width:30rem;
+    height:auto;
+    margin-left:40%;
+}
