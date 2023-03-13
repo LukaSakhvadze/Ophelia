@@ -79,7 +79,7 @@ header .menuDiv{
     width:4rem;
     display:none;
     position: relative;
-    
+    transform:translateY(-12px)
 }
 header .menuDiv2{
     position:absolute;
@@ -173,6 +173,7 @@ header .wrappedList a:hover, header .wrappedList a:focus{
         display:flex;
         align-items: center;
         justify-content: center;
+        transform:translateY(0)
     }
     header .unScrolledImg{
         margin-left:41vw
