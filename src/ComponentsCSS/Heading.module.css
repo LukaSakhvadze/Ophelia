@@ -76,7 +76,6 @@ header a:hover{
 header .menuDiv{
     margin-right:2%;
     min-height:8vh;
-    transform:translateY(-12px);
     width:4rem;
     display:none;
     position: relative;
