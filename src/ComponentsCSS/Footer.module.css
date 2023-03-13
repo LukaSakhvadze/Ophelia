@@ -1,0 +1,80 @@
+footer{
+    background-image: linear-gradient(to bottom, transparent, rgba(142,64,85,0.5), rgba(142,64,85,0.7), #8d3d53);
+    height:3rem;
+    position: sticky;
+    bottom:0;
+}
+footer .container{
+    margin:0 2%;
+    display:flex;
+    justify-content: space-between;
+    height:3rem;
+}
+
+footer nav ul{
+    display:flex;
+    align-items: center;
+    padding:0;
+    height:3rem;
+}
+footer nav:nth-child(1) ul{
+    gap:12%;
+}
+footer nav:nth-child(2) ul{
+    gap:1.5rem;
+}
+
+footer nav ul li{
+    list-style-type: none;
+    cursor: pointer;
+}
+footer nav:nth-child(2) ul li:last-child{
+    border:2px solid;
+    font-size:90%;
+    padding:0.3rem 0.5rem;
+}
+footer nav:nth-child(2) ul li:last-child:hover{
+    background-color: white;
+    transition: ease-in-out 0.25s all;
+}
+footer nav:nth-child(2) ul li:last-child:hover a{
+    background-color: white;
+    color: rgb(184, 171, 171);
+    transition: ease-in-out 0.25s all;
+}
+footer svg{
+    color: white;
+}
+footer svg:hover{
+    color: rgb(184, 171, 171);
+    cursor: pointer;
+    transition: ease-in-out 0.25s all;
+}
+footer a,a:visited,a:active{
+    text-decoration: none;
+    color:white;
+}
+footer a:hover{
+    color:rgb(172, 163, 163);
+    transition: ease-in-out 0.25s all;
+    cursor: pointer;
+}
+
+@media(max-width:900px){
+    footer nav:nth-child(1) ul{
+        gap:5%;
+    }
+    footer nav:nth-child(2) ul{
+        gap:1rem;
+        font-size:80%;
+    }
+}
+@media(max-width:900px){
+    footer nav:nth-child(1) ul{
+        gap:1%;
+    }
+    footer nav:nth-child(2) ul{
+        gap:0.5rem;
+        font-size:70%;
+    }
+}

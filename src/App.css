@@ -8,9 +8,13 @@
 
 html{
     scroll-behavior: smooth;
+    scroll-margin-bottom:15rem;
 }
 body{
     font-family: 'Roboto', sans-serif;
     background-image:linear-gradient(to bottom, #061b28 11% , #739191 52%,rgba(115,145,145,0.2) 92%);
     color:white;
+    background-repeat: no-repeat;
+    
 }
+
