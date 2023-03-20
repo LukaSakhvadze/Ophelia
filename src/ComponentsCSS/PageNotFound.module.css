@@ -1,0 +1,7 @@
+.pageNotFound{
+    height:100vh;
+    background-image: url("../Images/PageNotFound.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    
+}
