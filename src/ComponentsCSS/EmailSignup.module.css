@@ -1,116 +1,111 @@
-.emailSignup{
-    min-height: 100vh;
-    background-color: #e3e9e9;
-    
+.emailSignup {
+  min-height: 100vh;
+  background-color: #e3e9e9;
 }
-.emailSignup .cancelBtnDiv{
-    display:flex;
-    justify-content: flex-end;
+.emailSignup .cancelBtnDiv {
+  display: flex;
+  justify-content: flex-end;
 }
-.emailSignup .cancelBtn{
-    background-color: transparent;
-    border:none;
-    margin-right:1%;
-    font-size: 250%;
+.emailSignup .cancelBtn {
+  background-color: transparent;
+  border: none;
+  margin-right: 1%;
+  font-size: 250%;
 }
-.emailSignup .cancelBtn:hover{
-    transform:scale(1.2);
-    transition:transform ease-in-out 0.25s
+.emailSignup .cancelBtn:hover {
+  transform: scale(1.2);
+  transition: transform ease-in-out 0.25s;
 }
-.emailSignup .container{
-    min-height: 85vh;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto auto;
-   
+.emailSignup .container {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
 }
-.emailSignup .container2{
-    min-height: 80vh;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto auto;
-    
+.emailSignup .container2 {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
 }
-.emailSignup p{
-    margin-top:2%;
-    color:#333;
-    
+.emailSignup p {
+  margin-top: 2%;
+  color: #333;
 }
 
-.emailSignup a{
-    color:black;
-    text-decoration: none;
+.emailSignup a {
+  color: black;
+  text-decoration: none;
 }
-.emailSignup :is(a:visited,a:hover,a:active){
-    color:black;
+.emailSignup :is(a:visited, a:hover, a:active) {
+  color: black;
 }
-.emailSignup h2{
-    color:black;
-   font-weight: 600;
+.emailSignup h2 {
+  color: black;
+  font-weight: 600;
 }
-.emailSignup form{
-    width:50%;
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 1% auto;
+.emailSignup form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1% auto;
 }
-.emailSignup label{
-    color: black;
-    margin-top:1%;
+.emailSignup label {
+  color: black;
+  margin-top: 1%;
 }
-.emailSignup form input{
-    width:100%;
-    background-color: transparent;
-    height:3rem;
-    text-indent: 1%;
-    border-color: #0a1b27;
+.emailSignup form input {
+  width: 100%;
+  background-color: transparent;
+  height: 3rem;
+  text-indent: 1%;
+  border-color: #0a1b27;
 }
-.emailSignup .submitBtn{
-    letter-spacing: 0.2rem;
-    font-size:90%;
-    border: 2px solid black;
-    padding:1%;
-    background-color: transparent;
-    margin:4% auto 0 auto;
+.emailSignup .submitBtn {
+  letter-spacing: 0.2rem;
+  font-size: 90%;
+  border: 2px solid black;
+  padding: 1%;
+  background-color: transparent;
+  margin: 4% auto 0 auto;
 }
-.emailSignup .submitBtn:hover{
-    background-color: #0a1b27;
-    color:white;
-    transition: ease-in-out 0.25s all;
+.emailSignup .submitBtn:hover {
+  background-color: #0a1b27;
+  color: white;
+  transition: ease-in-out 0.25s all;
 }
-.emailSignup .closeBtn{
-    letter-spacing: 0.1rem;
-    font-size:90%;
-    border: 2px solid black;
-    padding:0.7% 1%;
-    background-color: transparent;
-    margin:1% auto 0 auto;
+.emailSignup .closeBtn {
+  letter-spacing: 0.1rem;
+  font-size: 90%;
+  border: 2px solid black;
+  padding: 0.7% 1%;
+  background-color: transparent;
+  margin: 1% auto 0 auto;
 }
-.emailSignup .closeBtn:hover{
-    color:white;
-    background-color: #0a1b27;
-    transition: ease-in-out 0.25s all;
+.emailSignup .closeBtn:hover {
+  color: white;
+  background-color: #0a1b27;
+  transition: ease-in-out 0.25s all;
 }
 
-
-@media(max-width:1000px){
-    .emailSignup form{
-        width:70%;
-    }
+@media (max-width: 1000px) {
+  .emailSignup form {
+    width: 70%;
+  }
 }
-@media(max-width:800px){
-    .emailSignup .submitBtn{
-        margin:10% auto 0 auto;
-        padding:1% 3%;
-    }
+@media (max-width: 800px) {
+  .emailSignup .submitBtn {
+    margin: 10% auto 0 auto;
+    padding: 1% 3%;
+  }
 }
-@media(max-width:500px){
-    .emailSignup form{
-        width:80%;
-    }
+@media (max-width: 500px) {
+  .emailSignup form {
+    width: 80%;
+  }
 }

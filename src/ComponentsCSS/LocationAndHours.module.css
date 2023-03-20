@@ -1,83 +1,82 @@
-.locationAndHours{
-    height:120vh;    
-    position: relative;
-    margin-top:7%;
+.locationAndHours {
+  height: 120vh;
+  position: relative;
+  margin-top: 7%;
 }
-.locationAndHours iframe{
-    position: absolute
+.locationAndHours iframe {
+  position: absolute;
 }
-.locationAndHours .locationAndHoursInfo{
-    min-height: 120vh;
-    width:47%;
-    display:flex;
-    flex-flow: column wrap;
-    align-items: center;
-    position: absolute;
-    background-color: rgba(175,191,192,0.8);
-    overflow: hidden;
+.locationAndHours .locationAndHoursInfo {
+  min-height: 120vh;
+  width: 47%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  position: absolute;
+  background-color: rgba(175, 191, 192, 0.8);
+  overflow: hidden;
 }
-.locationAndHours .locationAndHoursInfo h2{
-    text-align: center;
-    margin-top:10%;
-    color:black;
-    margin-bottom:3%;
+.locationAndHours .locationAndHoursInfo h2 {
+  text-align: center;
+  margin-top: 10%;
+  color: black;
+  margin-bottom: 3%;
 }
-.locationAndHours .locationAndHoursInfo a{
-    color:rgb(46, 44, 44);
-    
+.locationAndHours .locationAndHoursInfo a {
+  color: rgb(46, 44, 44);
 }
-.locationAndHours .locationAndHoursInfo a:hover{
-    color:#0a1b27;
-    transition: color .2s ease-in-out 0s
+.locationAndHours .locationAndHoursInfo a:hover {
+  color: #0a1b27;
+  transition: color 0.2s ease-in-out 0s;
 }
-.locationAndHours .locationAndHoursInfo p{
-    color:rgb(46, 44, 44);
-    font-weight: 100;
-    text-align: center;
+.locationAndHours .locationAndHoursInfo p {
+  color: rgb(46, 44, 44);
+  font-weight: 100;
+  text-align: center;
 }
-.locationAndHours .locationAndHoursInfo p:last-child{
-   margin: 0 10%;
+.locationAndHours .locationAndHoursInfo p:last-child {
+  margin: 0 10%;
 }
-.locationAndHours .directionBtnDiv{
-    margin:2% 0 3% 0;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+.locationAndHours .directionBtnDiv {
+  margin: 2% 0 3% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.locationAndHours .directionBtn{
-    color:rgb(46, 44, 44);
-    border: 2px solid black;
-    background-color: transparent;
-    padding:0.5rem 1.5rem;
-    cursor: pointer;
+.locationAndHours .directionBtn {
+  color: rgb(46, 44, 44);
+  border: 2px solid black;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
 }
-.locationAndHours .directionBtn:hover{
-    background-color: black;
-    color:white;
-    transition: ease-in-out 0.25s all;
+.locationAndHours .directionBtn:hover {
+  background-color: black;
+  color: white;
+  transition: ease-in-out 0.25s all;
 }
-.locationAndHours .locationAndHoursInfo p span{
-    font-weight: 900;
+.locationAndHours .locationAndHoursInfo p span {
+  font-weight: 900;
 }
-.locationAndHours .locationAndHoursInfo img{
-    width:50%;
-    animation: rotate 5s linear infinite backwards;
-    margin:10% 0
+.locationAndHours .locationAndHoursInfo img {
+  width: 50%;
+  animation: rotate 5s linear infinite backwards;
+  margin: 10% 0;
 }
-@keyframes rotate{
-    0%{
-        transform:rotate(0deg)
-    }
-    50%{
-        transform:rotate(-45deg)
-    }
-    100%{
-        transform:rotate(0deg)
-    }
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
-@media(max-width:700px){
-    .locationAndHours .locationAndHoursInfo{
-        width:55%;
-    }
+@media (max-width: 700px) {
+  .locationAndHours .locationAndHoursInfo {
+    width: 55%;
+  }
 }

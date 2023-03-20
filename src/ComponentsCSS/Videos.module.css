@@ -1,163 +1,160 @@
-.videos{
-    overflow: hidden;
-    display:flex;
-    flex-flow:column wrap;
-    align-items: center;
-    scroll-margin-top:5rem;
-    margin-top:4%;
+.videos {
+  overflow: hidden;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  scroll-margin-top: 5rem;
+  margin-top: 4%;
 }
-.videos .video1{
-    width:40rem;
-    height:auto;
+.videos .video1 {
+  width: 40rem;
+  height: auto;
 }
-.videos .reservationLink{
-    text-decoration: none;
-    margin-top:1.5%;
-    margin-bottom:4%;   
-    padding:0.5% 1%;
-    background-color: transparent;
-    cursor: pointer;
-    color:white;
-    border:3px white solid
+.videos .reservationLink {
+  text-decoration: none;
+  margin-top: 1.5%;
+  margin-bottom: 4%;
+  padding: 0.5% 1%;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  border: 3px white solid;
 }
-.videos :is(.reservationLink:hover,.reservationLink:focus){
-    background-color: white;
-    color:grey;
-    transition: ease-in-out 0.25s all;
+.videos :is(.reservationLink:hover, .reservationLink:focus) {
+  background-color: white;
+  color: grey;
+  transition: ease-in-out 0.25s all;
 }
-.videos a{
-    margin-top:4%;
-    
+.videos a {
+  margin-top: 4%;
 }
-.videos .video2{
-    width:60%;
-    height:40rem;
+.videos .video2 {
+  width: 60%;
+  height: 40rem;
 }
-.videos .subscribeBtn{
-    font-size:100%;
-    padding:3% 5%;
-    margin-bottom:6rem;
-    white-space: nowrap;
-    transform: translateX(-5%);
-    background-color: transparent;
-    cursor: pointer;
-    color:white;
-    border:3px white solid
+.videos .subscribeBtn {
+  font-size: 100%;
+  padding: 3% 5%;
+  margin-bottom: 6rem;
+  white-space: nowrap;
+  transform: translateX(-5%);
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  border: 3px white solid;
 }
-.videos .subscribeBtn:hover{
-    background-color: white;
-    color:grey;
-    transition: ease-in-out 0.25s all;
-}
-
-.videos h2{
-    font-size:200%;
-    white-space: nowrap;
+.videos .subscribeBtn:hover {
+  background-color: white;
+  color: grey;
+  transition: ease-in-out 0.25s all;
 }
 
-.videos .cocktail{
-    margin-top:6%;
-}
-.videos .cocktail h2:nth-child(1){
-    margin-left:0%;
-}
-.videos .cocktail h2:nth-child(2){
-    margin-left:13%;
-}
-.videos .cocktail h2:nth-child(3){
-    margin-left:30%;
-}
-.videos .SnakeImg{
-    width:30rem;
-    height:auto;
-    margin-left:40%;
+.videos h2 {
+  font-size: 200%;
+  white-space: nowrap;
 }
 
+.videos .cocktail {
+  margin-top: 6%;
+}
+.videos .cocktail h2:nth-child(1) {
+  margin-left: 0%;
+}
+.videos .cocktail h2:nth-child(2) {
+  margin-left: 13%;
+}
+.videos .cocktail h2:nth-child(3) {
+  margin-left: 30%;
+}
+.videos .SnakeImg {
+  width: 30rem;
+  height: auto;
+  margin-left: 40%;
+}
 
-@media(max-width:1000px){
-    .videos h2{
-        font-size: 170%;
-    }
-    .videos .cocktail{
-        margin-left:-10%;
-    }
-    .videos .SnakeImg{
-        margin-left:30%;
-    }
+@media (max-width: 1000px) {
+  .videos h2 {
+    font-size: 170%;
+  }
+  .videos .cocktail {
+    margin-left: -10%;
+  }
+  .videos .SnakeImg {
+    margin-left: 30%;
+  }
 }
-@media(max-width:850px){
-    .videos .video1{
-        width:30rem;
-    }
-    .videos .zodiacImg{
-        width:30rem;
-    }
-    .videos .reservationLink{
-        margin-top:5%;
-        padding:0.5% 3%;
-    }
-    .videos .subscribeBtn{
-        margin-top:7%;
-    }
-    .videos .cocktail h2:nth-child(1){
-        margin-left:0%;
-    }
-    .videos .cocktail h2:nth-child(2){
-        margin-left:6%;
-    }
-    .videos .cocktail h2:nth-child(3){
-        margin-left:15%;
-    }
-    .videos .SnakeImg{
-        margin-left:15%;
-        margin-top:5%;
-    }
-    .videos .video2{
-        width:70%;
-        height:40rem;
-    }
+@media (max-width: 850px) {
+  .videos .video1 {
+    width: 30rem;
+  }
+  .videos .zodiacImg {
+    width: 30rem;
+  }
+  .videos .reservationLink {
+    margin-top: 5%;
+    padding: 0.5% 3%;
+  }
+  .videos .subscribeBtn {
+    margin-top: 7%;
+  }
+  .videos .cocktail h2:nth-child(1) {
+    margin-left: 0%;
+  }
+  .videos .cocktail h2:nth-child(2) {
+    margin-left: 6%;
+  }
+  .videos .cocktail h2:nth-child(3) {
+    margin-left: 15%;
+  }
+  .videos .SnakeImg {
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  .videos .video2 {
+    width: 70%;
+    height: 40rem;
+  }
 }
-@media (max-width:700px){
-    .videos .cocktail h2{
-        font-size:120%;
-    }
-    .videos .SnakeImg{
-        width:20rem;
-    }
-    .videos .video2{
-        width:80%;
-        height:40rem;
-    }
+@media (max-width: 700px) {
+  .videos .cocktail h2 {
+    font-size: 120%;
+  }
+  .videos .SnakeImg {
+    width: 20rem;
+  }
+  .videos .video2 {
+    width: 80%;
+    height: 40rem;
+  }
 }
-@media (max-width:500px){
-    .videos .video1{
-        width:25rem
-    }
-    .videos .zodiacImg{
-        width:25rem;
-    }
-    .videos .cocktail h2{
-        font-size:100%;
-    }
-    .videos .cocktail h2:nth-child(1){
-        margin-left:3%;
-    }
-    .videos .cocktail h2:nth-child(2){
-        margin-left:9%;
-    }
-    .videos .cocktail h2:nth-child(3){
-        margin-left:15%;
-    }
+@media (max-width: 500px) {
+  .videos .video1 {
+    width: 25rem;
+  }
+  .videos .zodiacImg {
+    width: 25rem;
+  }
+  .videos .cocktail h2 {
+    font-size: 100%;
+  }
+  .videos .cocktail h2:nth-child(1) {
+    margin-left: 3%;
+  }
+  .videos .cocktail h2:nth-child(2) {
+    margin-left: 9%;
+  }
+  .videos .cocktail h2:nth-child(3) {
+    margin-left: 15%;
+  }
 }
-@media(max-width:420px){
-    .videos .video1{
-        width:20rem;
-    }
-    .videos .zodiacImg{
-        width:20rem;
-    }
-    .videos .cocktail h2:nth-child(1){
-        margin-left:4%;
-    }
-    
+@media (max-width: 420px) {
+  .videos .video1 {
+    width: 20rem;
+  }
+  .videos .zodiacImg {
+    width: 20rem;
+  }
+  .videos .cocktail h2:nth-child(1) {
+    margin-left: 4%;
+  }
 }

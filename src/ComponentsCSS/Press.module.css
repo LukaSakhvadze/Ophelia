@@ -1,86 +1,86 @@
-.press{
-    overflow: hidden;
-    min-height: 80vh;
+.press {
+  overflow: hidden;
+  min-height: 80vh;
 }
-.press h2{
-    font-size:200%;
-    margin-top:5%;
-    text-align: center;
-    color:black;
-}
-
-.press .container{
-    width:60%;
-    height:60vh;
-    display:flex;
-    flex-direction: column;
-    margin:0 auto;
-}
-.press .container div{
-    padding-right: 0.3%;
-    padding-left: 0.1%;
-}
-.press img{
-    width:100%;
-    height:45vh;
-    object-fit: cover;
-    cursor:pointer;
-    transform: scale(1);
-    transition: 0.3s ease-in-out ;
-}
-.press img:hover{
-    transform: scale(1.1);
+.press h2 {
+  font-size: 200%;
+  margin-top: 5%;
+  text-align: center;
+  color: black;
 }
 
-.press .box{
-    width:33%;
+.press .container {
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
-.press .box div{
-    height:45vh;
-    overflow: hidden;
-    
+.press .container div {
+  padding-right: 0.3%;
+  padding-left: 0.1%;
 }
-.press h4{
-    margin-top:4%;
-    text-align: center;
+.press img {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+.press img:hover {
+  transform: scale(1.1);
+}
+
+.press .box {
+  width: 33%;
+}
+.press .box div {
+  height: 45vh;
+  overflow: hidden;
+}
+.press h4 {
+  margin-top: 4%;
+  text-align: center;
 }
 .press .box p {
-    text-align: center;
+  text-align: center;
 }
-.press .box:hover p{
-    color:darkred;
+.press .box:hover p {
+  color: darkred;
 }
-.press a{
-    text-decoration: none;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+.press a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.press a:visited, .press a:active{
-    color:black;
+.press a:visited,
+.press a:active {
+  color: black;
 }
 
-@media(max-width:1190px){
-    .press{
-        height:90vh
-    }
-    .press .container{
-        height:70vh;
-    }
+@media (max-width: 1190px) {
+  .press {
+    height: 90vh;
+  }
+  .press .container {
+    height: 70vh;
+  }
 }
-@media(max-width:900px){
-    .press{
-        height:95vh
-    }
-    .press .container{
-        height:75vh;
-    }
+@media (max-width: 900px) {
+  .press {
+    height: 95vh;
+  }
+  .press .container {
+    height: 75vh;
+  }
 }
-@media(max-width:550px){
-    .press{
-        height:110vh
-    }
-    .press .container{
-        height:85vh;
-    }
+@media (max-width: 550px) {
+  .press {
+    height: 110vh;
+  }
+  .press .container {
+    height: 85vh;
+  }
 }

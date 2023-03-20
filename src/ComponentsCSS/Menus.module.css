@@ -1,52 +1,51 @@
-.menus{
-    margin-top:8%;
-    scroll-margin-top:5rem;
-    display:flex;
-    flex-direction: column;
+.menus {
+  margin-top: 8%;
+  scroll-margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
 }
-.menus h2{
-    text-align: center;
-    font-size:200%;
+.menus h2 {
+  text-align: center;
+  font-size: 200%;
 }
-.menus nav{
-    margin-top:4%;
+.menus nav {
+  margin-top: 4%;
 }
-.menus ul{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap:1%;
-    padding:0;
+.menus ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1%;
+  padding: 0;
 }
-.menus ul li{
-    list-style-type: none;
-    border:2px  white solid;
-    padding:0.5% 1%;
-    cursor: pointer;
+.menus ul li {
+  list-style-type: none;
+  border: 2px white solid;
+  padding: 0.5% 1%;
+  cursor: pointer;
 }
-.menus ul li:hover{
-    background-color: white;
-    color:grey;
-    transition: ease-in-out 0.25s all ;
+.menus ul li:hover {
+  background-color: white;
+  color: grey;
+  transition: ease-in-out 0.25s all;
 }
-.menus .highlited{
-    background-color: white;
-    color:grey;
-}
-
-@media(max-width:1400px){
-    .menus ul{
-        gap:2%;
-    }
-}
-@media(max-width:700px){
-    .menus ul{
-        gap:3%;
-    }
-}
-@media(max-width:600px){
-    .menus ul{
-        gap:3%;
-    }
+.menus .highlited {
+  background-color: white;
+  color: grey;
 }
 
+@media (max-width: 1400px) {
+  .menus ul {
+    gap: 2%;
+  }
+}
+@media (max-width: 700px) {
+  .menus ul {
+    gap: 3%;
+  }
+}
+@media (max-width: 600px) {
+  .menus ul {
+    gap: 3%;
+  }
+}

@@ -1,140 +1,136 @@
-.reservations{
-    background-color: #e3e9e9;
-    min-height: 100vh;
+.reservations {
+  background-color: #e3e9e9;
+  min-height: 100vh;
 }
-.reservations .cancelBtnDiv{
-    display:flex;
-    justify-content: flex-end;
+.reservations .cancelBtnDiv {
+  display: flex;
+  justify-content: flex-end;
 }
-.reservations .cancelBtn{
-    background-color: transparent;
-    border:none;
-    margin-right:1%;
-    font-size: 250%;
+.reservations .cancelBtn {
+  background-color: transparent;
+  border: none;
+  margin-right: 1%;
+  font-size: 250%;
 }
-.reservations .cancelBtn:hover{
-    transform:scale(1.2);
-    transition:transform ease-in-out 0.25s
+.reservations .cancelBtn:hover {
+  transform: scale(1.2);
+  transition: transform ease-in-out 0.25s;
 }
-.reservations a{
-    color:black;
-    text-decoration: none;
+.reservations a {
+  color: black;
+  text-decoration: none;
 }
-.reservations :is(a:visited,a:hover,a:active){
-    color:black;
+.reservations :is(a:visited, a:hover, a:active) {
+  color: black;
 }
-.reservations .container{
-    min-height: 90vh;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    margin: auto auto;
-    
+.reservations .container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: auto auto;
 }
-.reservations h2{
-    margin-top:7%;
-    text-align: center;
-    color:black;
-    font-weight: 600;
+.reservations h2 {
+  margin-top: 7%;
+  text-align: center;
+  color: black;
+  font-weight: 600;
 }
-.reservations form{
-    width:50%;
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0.2% auto;
+.reservations form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0.2% auto;
 }
-.reservations label{
-    color: black;
-    margin-top:1%;
+.reservations label {
+  color: black;
+  margin-top: 1%;
 }
-.reservations form input{   
-    width:100%;
-    background-color: transparent;
-    height:3rem;
-    text-indent: 1%;
-    border: 1px solid #0a1b27;
-    cursor:pointer  
+.reservations form input {
+  width: 100%;
+  background-color: transparent;
+  height: 3rem;
+  text-indent: 1%;
+  border: 1px solid #0a1b27;
+  cursor: pointer;
 }
-.reservations form input::placeholder{
-    font-size:120%;
+.reservations form input::placeholder {
+  font-size: 120%;
 }
-.reservations form select{
-    width:100%;
-    background-color: transparent;
-    height:3rem;
-    border-color: #0a1b27;
-    appearance: none;
-    padding-left:1.5%;
-}
-
-.reservations form .dropDown{
-    position: absolute;
-    color:black;
-    right:0;
-    height:3rem;
-    display:flex;
-    align-items: center;
-    
-}
-.reservations form .dropDown svg{
-    width:100%;
-    height:100%;
+.reservations form select {
+  width: 100%;
+  background-color: transparent;
+  height: 3rem;
+  border-color: #0a1b27;
+  appearance: none;
+  padding-left: 1.5%;
 }
 
-.reservations .selectDiv{
-    display:flex;
-    position: relative;
-    width:100%;
+.reservations form .dropDown {
+  position: absolute;
+  color: black;
+  right: 0;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+.reservations form .dropDown svg {
+  width: 100%;
+  height: 100%;
 }
 
-.reservations .disabled{
-    color:grey;
-    
-}
-.reservations .abled{
-    color:black;
-    
-}
-.reservations form .submitBtn{
-    border: none;
-    background-color: transparent;
-    margin:9% auto 0 auto;
+.reservations .selectDiv {
+  display: flex;
+  position: relative;
+  width: 100%;
 }
 
-.reservations form .submitBtn:hover a{
-    background-color: #0a1b27;
-    color:white;
-    transition: ease-in-out 0.25s all;
+.reservations .disabled {
+  color: grey;
 }
-.reservations .submitLink{
-    display:block;
-    border:2px solid black;
-    padding:0.7rem 1.2rem;
-    font-size:90%;
+.reservations .abled {
+  color: black;
 }
-.reservations em{   
-        color:grey;
-        font-weight: 500;
-}
-.reservations .required{
-    color:black;
+.reservations form .submitBtn {
+  border: none;
+  background-color: transparent;
+  margin: 9% auto 0 auto;
 }
 
-@media(max-width:1100px){
-    .reservations form{
-        width:70%;
-    }
+.reservations form .submitBtn:hover a {
+  background-color: #0a1b27;
+  color: white;
+  transition: ease-in-out 0.25s all;
 }
-@media(max-width:700px){
-    .reservations form{
-        margin: 1rem auto;
-    }
+.reservations .submitLink {
+  display: block;
+  border: 2px solid black;
+  padding: 0.7rem 1.2rem;
+  font-size: 90%;
 }
-@media(max-width:500px){
-    .reservations form{
-        width:80%;
-        margin: 2rem auto;
-    }
+.reservations em {
+  color: grey;
+  font-weight: 500;
+}
+.reservations .required {
+  color: black;
+}
+
+@media (max-width: 1100px) {
+  .reservations form {
+    width: 70%;
+  }
+}
+@media (max-width: 700px) {
+  .reservations form {
+    margin: 1rem auto;
+  }
+}
+@media (max-width: 500px) {
+  .reservations form {
+    width: 80%;
+    margin: 2rem auto;
+  }
 }
