@@ -2,11 +2,11 @@ import React from "react";
 import WineCSS from "../../ComponentsCSS/MenuComponentsCSS/Wine.module.css";
 import { Link } from "react-router-dom";
 import {
-  downloadUrl,
   wines1,
   wines2,
   wines3,
-} from "../../Massives,Consts/Consts";
+} from "../../Consts/wines.const";
+import {downloadUrl} from "../../Consts/consts";
 
 function Wine() {
   return (

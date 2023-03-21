@@ -1,7 +1,8 @@
 import React from "react";
 import CuisineCss from "../../ComponentsCSS/MenuComponentsCSS/Cuisine.module.css";
 import { Link } from "react-router-dom";
-import { downloadUrl, cuisines } from "../../Massives,Consts/Consts";
+import { downloadUrl } from "../../Consts/consts";
+import { cuisines } from "../../Consts/cuisine.const";
 
 function Cuisine() {
   return (

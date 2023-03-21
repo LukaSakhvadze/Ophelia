@@ -1,7 +1,7 @@
 import React from "react";
 import SweetCSS from "../../ComponentsCSS/MenuComponentsCSS/Sweets.module.css";
 import { Link } from "react-router-dom";
-import { downloadUrl } from "../../Massives,Consts/Consts";
+import { downloadUrl } from "../../Consts/consts";
 
 function Sweets() {
   return (

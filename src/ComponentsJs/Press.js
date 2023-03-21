@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
-import { PressImages } from "../Massives,Consts/Consts";
+import { PressImages } from "../Consts/press.const";
 
 function Press() {
   const settings = {

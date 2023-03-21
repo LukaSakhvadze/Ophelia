@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { hours, persons } from "../Massives,Consts/Consts";
+import { hours, persons } from "../Consts/reservation.const";
 
 function Reservations() {
   const [people, setPeople] = useState(0);

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import FooterCSS from "../ComponentsCSS/Footer.module.css";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import { svgs, location } from "../Massives,Consts/Consts";
+import { svgs, location } from "../Consts/consts";
 
 function Footer() {
   const [width, setWidth] = useState(window.innerWidth);

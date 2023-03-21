@@ -1,7 +1,8 @@
 import React from "react";
 import CocktailsCSS from "../../ComponentsCSS/MenuComponentsCSS/Cocktails.module.css";
 import { Link } from "react-router-dom";
-import { cocktails, downloadUrl } from "../../Massives,Consts/Consts";
+import { downloadUrl } from "../../Consts/consts";
+import { cocktails } from "../../Consts/cocktails.const";
 
 function Cocktails() {
   return (

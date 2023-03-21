@@ -1,7 +1,8 @@
 import React from "react";
 import BeerCSS from "../../ComponentsCSS/MenuComponentsCSS/Beer.module.css";
 import { Link } from "react-router-dom";
-import { beers, downloadUrl } from "../../Massives,Consts/Consts";
+import { downloadUrl } from "../../Consts/consts";
+import { beers } from "../../Consts/beers.const";
 
 function Beer() {
   return (

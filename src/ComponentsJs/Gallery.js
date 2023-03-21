@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-import { GalleryImages } from "../Massives,Consts/Consts";
+import { GalleryImages } from "../Consts/gallery.const";
 
 function Gallery() {
   const settings = {
